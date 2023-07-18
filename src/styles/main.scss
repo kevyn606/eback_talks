@@ -1,4 +1,7 @@
 @use 'hero';
+@use 'components/indos_bar';
+@use 'components/buttons';
+@use 'event';
 
 *{
     margin: 0;
@@ -6,6 +9,8 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif ;
     color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
 .container{

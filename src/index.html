@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -15,15 +16,77 @@
             <img class="hero__logo" src="images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
                 O maior evento de tecnologia do Brasil começa em
-                30d 17h 20min 56s
+                <span id="contador"></span>
             </p>
-
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo/SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 129,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        10/10/1010
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garantir minha vaga
+                </a>
+            </div>
         </div>
-
     </header>
+    <section class="event" id="fundo1" >
+        <div class="container" data-aos="fade-right" data-aos-duration="2000">
+            <div class="event__details" >
+                <h2 class="event__details__title" >Front-end</h2>
+                <p class="event__details__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <img class="event__image" src="images/frontend.png" alt="fonte-end">
+        </div>
+    </section>
+    <section class="event event--image-left" id="fundo2">
+        <div class="container" data-aos="fade-left" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title" >Back end</h2>
+                <p class="event__details__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <img class="event__image" src="images/frontend.png" alt="fonte-end">
+        </div>
+    </section>
+    <section class="event" id="fundo3">
+        <div class="container" data-aos="fade-right" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title" >UI/UX</h2>
+                <p class="event__details__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <img class="event__image" src="images/frontend.png" alt="fonte-end">
+        </div>
+    </section>
+    <section class="event event--image-left" id="fundo4">
+        <div class="container " data-aos="fade-left" data-aos-duration="2000">
+            <div class="event__details">
+                <h2 class="event__details__title" >Data Science</h2>
+                <p class="event__details__description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <img class="event__image" src="images/frontend.png" alt="fonte-end">
+        </div>
+    </section>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
+    
 </body>
 </html>
