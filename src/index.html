@@ -3,88 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBAC Tech Talks</title>
+    <title>Delex</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     <header class="hero">
-        <div class="container">
-            <img class="hero__logo" src="images/ebac_logo.svg" alt="EBAC">
-            <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em
-                <span id="contador"></span>
-            </p>
-            <div class="infos-bar">
-                <ul class="infos-bar__infos">
-                    <li class="infos-bar__infos__item">
-                        <b>Localização</b>
-                        Allianz Parque - Barra Funda - São Paulo/SP
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Preço</b>
-                        A partir de R$ 129,00
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Quando</b>
-                        10/10/1010
-                    </li>
-                </ul>
-                <a href="#" class="button button--primary">
-                    Garantir minha vaga
-                </a>
+            <div class="hero_esquerdo">
+                <img class="hero__logo" src="images/logo_delex.png" alt="delex">
+                <p>Encontre camisas com designs exclusivos e mensagens inspiradoras, tudo pensado para refletir sua fé com estilo e elegância.</p>
+                <div class="hero_butao">
+                    <a href="https://www.instagram.com/delexstore/" class="btn" id="butao" role="button" ><i class="bi bi-instagram"></i>Instagram</a>
+                </div>
             </div>
-        </div>
+            <div class="hero_direito">
+                <p>Delex vista sua fé com Estilo!</p>
+            </div>
     </header>
+    <div class="cronometro">
+        <div class="cronometro_conteudo">
+            <p class="hero__text " >
+                FALTAM APENAS
+            </p>
+            <p id="contador"></p>
+        </div>
+    </div>
     <section class="event" id="fundo1" >
+        <p>Lançamento</p>
         <div class="container" data-aos="fade-right" data-aos-duration="2000">
             <div class="event__details" >
-                <h2 class="event__details__title" >Front-end</h2>
-                <p class="event__details__description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
+                <img id="camisa-1" src="images/camisa-1.png" alt="camisa">
             </div>
-            <img class="event__image" src="images/frontend.png" alt="fonte-end">
         </div>
-    </section>
-    <section class="event event--image-left" id="fundo2">
-        <div class="container" data-aos="fade-left" data-aos-duration="2000">
-            <div class="event__details">
-                <h2 class="event__details__title" >Back end</h2>
-                <p class="event__details__description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-            <img class="event__image" src="images/backend.png" alt="Back end">
-        </div>
-    </section>
-    <section class="event" id="fundo3">
         <div class="container" data-aos="fade-right" data-aos-duration="2000">
-            <div class="event__details">
-                <h2 class="event__details__title" >UI/UX</h2>
-                <p class="event__details__description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
+            <div class="event__details_2  " >
+                <h3>MODELO TRADICIONAL STREET</h3>
+                <ul>
+                    <li><i class="bi bi-check-circle-fill"></i>COR: BLACK</li>
+                    <li><i class="bi bi-check-circle-fill"></i>MALHA: Menegotti STRONG</li>
+                    <li><i class="bi bi-check-circle-fill"></i>MODELAGEM: STREET SCREEN</li>
+                </ul>
+                <h4>Modelagem tradicional atemporal e sempre atual</h4>
             </div>
-            <img class="event__image" src="images/ui-ux.png" alt="UI/UX">
+            <div class="hero_butao">
+                <a href="https://www.instagram.com/delexstore/" class="btn" id="butao" role="button" ><i class="bi bi-cart-check-fill"></i>Encomendar</a>
+            </div>
+        </div>
+        <div class="tamanhos" data-aos="fade-right" data-aos-duration="2000">
+            <h3>Tamanhos</h3>
+            <img src="images/TAMANOS.png" alt="tamanhos">
+        </div>
+            <h3 id="mmmm">Nossa Misão</h3>
+        <div class="misao" data-aos="fade-right" data-aos-duration="2000">
+            
+            <div class="texto">
+            <p>Um Rei, que deixou seu trono.
+                Um Deus, que se tornou homem.
+                Um sangue, nos salvou.
+                Um sacrifício, que nos deu uma vida gloriosa.
+                
+                Diante das circunstâncias, coragem.
+                Diante das dificuldades, força.
+                Diante do medo, ousadia. 
+                Diante da morte, eterna alegria.
+                
+                Os campos, já estão prontos.
+                A seara, é grande.
+                Um caminho, precisa ser preparado.
+                As veredas tortas, endireitadas.
+                
+                Onde estão os trabalhadores, que estão ouvindo e vão responder ao chamado do Rei.</p>
+            </div>
+            <div class="texto">
+                <p>Um Rei, que deixou seu trono.
+                    Um Deus, que se tornou homem.
+                    Um sangue, nos salvou.
+                    Um sacrifício, que nos deu uma vida gloriosa.
+                    
+                    Diante das circunstâncias, coragem.
+                    Diante das dificuldades, força.
+                    Diante do medo, ousadia. 
+                    Diante da morte, eterna alegria.
+                    
+                    Os campos, já estão prontos.
+                    A seara, é grande.
+                    Um caminho, precisa ser preparado.
+                    As veredas tortas, endireitadas.
+                    
+                    Onde estão os trabalhadores, que estão ouvindo e vão responder ao chamado do Rei.</p>
+                </div>
         </div>
     </section>
-    <section class="event event--image-left" id="fundo4">
-        <div class="container " data-aos="fade-left" data-aos-duration="2000">
-            <div class="event__details">
-                <h2 class="event__details__title" >Data Science</h2>
-                <p class="event__details__description">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-            <img class="event__image" src="images/data.png" alt="Data Science">
-        </div>
-    </section>
-
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
     
